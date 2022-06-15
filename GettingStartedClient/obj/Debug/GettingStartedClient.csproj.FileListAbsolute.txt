@@ -1,0 +1,8 @@
+C:\Users\Victor\source\repos\GettingStarted\GettingStartedClient\bin\Debug\GettingStartedClient.exe.config
+C:\Users\Victor\source\repos\GettingStarted\GettingStartedClient\bin\Debug\GettingStartedClient.exe
+C:\Users\Victor\source\repos\GettingStarted\GettingStartedClient\bin\Debug\GettingStartedClient.pdb
+C:\Users\Victor\source\repos\GettingStarted\GettingStartedClient\obj\Debug\GettingStartedClient.csproj.AssemblyReference.cache
+C:\Users\Victor\source\repos\GettingStarted\GettingStartedClient\obj\Debug\GettingStartedClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\Victor\source\repos\GettingStarted\GettingStartedClient\obj\Debug\GettingStartedClient.csproj.CoreCompileInputs.cache
+C:\Users\Victor\source\repos\GettingStarted\GettingStartedClient\obj\Debug\GettingStartedClient.exe
+C:\Users\Victor\source\repos\GettingStarted\GettingStartedClient\obj\Debug\GettingStartedClient.pdb

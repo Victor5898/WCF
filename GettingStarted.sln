@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedLib", "GettingStartedLib\GettingStartedLib.csproj", "{D193181B-8994-4437-A985-9FFC38A043F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedHost", "GettingStartedHost\GettingStartedHost.csproj", "{32351742-E090-43B7-9B00-805007FD176C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedClient", "GettingStartedClient\GettingStartedClient.csproj", "{5CD2D3B2-73D8-4CA5-95E7-BC8E34C2CFDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D193181B-8994-4437-A985-9FFC38A043F2} = {D193181B-8994-4437-A985-9FFC38A043F2}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CalculatorService_IIS", "CalculatorService_IIS\", "{33181042-31A4-4268-8F89-3E382BD13BF9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64927"
+		Debug.AspNetCompiler.PhysicalPath = "CalculatorService_IIS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64927\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64927"
+		Release.AspNetCompiler.PhysicalPath = "CalculatorService_IIS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64927\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64927"
+		SlnRelativePath = "CalculatorService_IIS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D193181B-8994-4437-A985-9FFC38A043F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D193181B-8994-4437-A985-9FFC38A043F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D193181B-8994-4437-A985-9FFC38A043F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D193181B-8994-4437-A985-9FFC38A043F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32351742-E090-43B7-9B00-805007FD176C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32351742-E090-43B7-9B00-805007FD176C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32351742-E090-43B7-9B00-805007FD176C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32351742-E090-43B7-9B00-805007FD176C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD2D3B2-73D8-4CA5-95E7-BC8E34C2CFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD2D3B2-73D8-4CA5-95E7-BC8E34C2CFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD2D3B2-73D8-4CA5-95E7-BC8E34C2CFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD2D3B2-73D8-4CA5-95E7-BC8E34C2CFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33181042-31A4-4268-8F89-3E382BD13BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33181042-31A4-4268-8F89-3E382BD13BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33181042-31A4-4268-8F89-3E382BD13BF9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{33181042-31A4-4268-8F89-3E382BD13BF9}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C589D53-CF64-4065-828D-AFA41D3766DA}
+	EndGlobalSection
+EndGlobal
