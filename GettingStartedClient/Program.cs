@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GettingStartedClient.ServiceReference1;
+using GettingStartedClient.ServiceReference2;
 
 namespace GettingStartedClient
 {
@@ -11,7 +11,7 @@ namespace GettingStartedClient
         static void Main(string[] args)
         {
             //Step 1: Create an instance of the WCF proxy.
-            CalculatorClient client = new CalculatorClient("NetTcpBinding_ICalculator");
+            CalculatorClient client = new CalculatorClient();
 
             // Step 2: Call the service operations.
             // Call the Add service operation.
@@ -43,7 +43,7 @@ namespace GettingStartedClient
             Console.ReadLine();
             client.Close();
 
-            client = new CalculatorClient("WSHttpBinding_ICalculator");
+            client = new CalculatorClient();
 
             // Step 2: Call the service operations.
             // Call the Add service operation.
@@ -75,7 +75,7 @@ namespace GettingStartedClient
             Console.ReadLine();
             client.Close();
 
-            client = new CalculatorClient("NetHttpsBinding_ICalculator");
+            client = new CalculatorClient();
 
             // Step 2: Call the service operations.
             // Call the Add service operation.

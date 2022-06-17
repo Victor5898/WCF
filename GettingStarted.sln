@@ -10,6 +10,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CalculatorService_IIS(1)", "CalculatorService_IIS\", "{A0215FDE-6FC6-4872-AE70-4CB570D4224F}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{d193181b-8994-4437-a985-9ffc38a043f2}|GettingStartedLib.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_49250"
 		Debug.AspNetCompiler.PhysicalPath = "CalculatorService_IIS\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49250\"
