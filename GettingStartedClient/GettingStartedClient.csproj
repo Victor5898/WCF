@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5CD2D3B2-73D8-4CA5-95E7-BC8E34C2CFDF}</ProjectGuid>
+    <ProjectGuid>{0ACB0C59-B8F4-46FD-9B90-B4E2BCAB4B6E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>GettingStartedClient</RootNamespace>
     <AssemblyName>GettingStartedClient</AssemblyName>
@@ -63,7 +63,6 @@
     <None Include="Connected Services\ServiceReference1\service.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Web.Debug.config" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />

@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language = "C#" Debug = "true" Service = "GettingStarted.GettingStartedLib.CalculatorService"%>
+﻿<%@ ServiceHost Language = "C#" Debug = "true" Service = "GettingStartedLib.CalculatorService"%>
